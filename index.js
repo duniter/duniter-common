@@ -7,5 +7,6 @@ module.exports = {
   keyring: require('./lib/crypto/keyring'),
   base58: require('./lib/crypto/base58'),
   rawer: require('./lib/rawer'),
-  buid: require('./lib/buid')
+  buid: require('./lib/buid'),
+  document: require('./lib/document')
 }
