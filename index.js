@@ -8,5 +8,6 @@ module.exports = {
   base58: require('./lib/crypto/base58'),
   rawer: require('./lib/rawer'),
   buid: require('./lib/buid'),
-  document: require('./lib/document')
+  document: require('./lib/document'),
+  constants: require('./lib/constants')
 }
