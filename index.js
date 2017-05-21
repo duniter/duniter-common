@@ -9,5 +9,7 @@ module.exports = {
   rawer: require('./lib/rawer'),
   buid: require('./lib/buid'),
   document: require('./lib/document'),
-  constants: require('./lib/constants')
+  constants: require('./lib/constants'),
+  txunlock: require('./lib/txunlock'),
+  indexer: require('./lib/indexer')
 }
