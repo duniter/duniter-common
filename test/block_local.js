@@ -89,7 +89,6 @@ function test (rule, raw, expectedMessage) {
         throw 'Test should have thrown an error';
       }
     } catch (e) {
-      console.error(e.stack || e);
       if (!expectedMessage) {
         console.error(e.stack || e);
       }
@@ -98,6 +97,8 @@ function test (rule, raw, expectedMessage) {
         e.uerr.message.should.equal(expectedMessage);
       } else {
         e.message.should.equal(expectedMessage);
+        // Display non wrapped errors (wrapped error is an error in constants.js)
+        // console.error(e.stack || e);
       }
     }
   });
