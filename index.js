@@ -11,5 +11,6 @@ module.exports = {
   document: require('./lib/document'),
   constants: require('./lib/constants'),
   txunlock: require('./lib/txunlock'),
-  indexer: require('./lib/indexer')
+  indexer: require('./lib/indexer'),
+  parsers: require('./lib/parsers')
 }
