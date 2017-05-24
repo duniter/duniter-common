@@ -2,7 +2,6 @@
 const should = require('should');
 const co  = require('co');
 const nacl   = require('tweetnacl');
-const base58 = require('../lib/crypto/base58');
 const keyring      = require('../lib/crypto/keyring');
 
 const enc = nacl.util.encodeBase64,
